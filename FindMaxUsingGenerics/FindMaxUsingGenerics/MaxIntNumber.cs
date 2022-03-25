@@ -8,24 +8,24 @@ namespace FindMaxUsingGenerics
 {
     internal class MaxIntNumber
     {
-        public int NumberMax(int num1, int num2, int num3)
+        public int NumberMax(int num_1, int num_2, int num_3)
         {
-            Console.WriteLine("Three numbers are num1 = {0} , num2 = {1} , num3 = {2} ", num1, num2, num3);
+            Console.WriteLine("Three Integer numbers are : num1 = {0} , num2 = {1} , num3 = {2} ", num_1, num_2, num_3);
 
-            if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0)
+            if (num_1.CompareTo(num_2) > 0 && num_1.CompareTo(num_3) > 0)
             {
-                Console.WriteLine("Max = ");
-                return num1;
+                Console.Write("Max Integer Number = ");
+                return num_1;
             }
-            else if (num2.CompareTo(num3) > 0 && num2.CompareTo(num1) > 0)
+            else if (num_2.CompareTo(num_3) > 0 && num_2.CompareTo(num_1) > 0)
             {
-                Console.WriteLine("Max = ");
-                return num2;
+                Console.Write("Max Integer Number = ");
+                return num_2;
             }
-            else if (num3.CompareTo(num1) > 0 && num3.CompareTo(num2) > 0)
+            else if (num_3.CompareTo(num_1) > 0 && num_3.CompareTo(num_2) > 0)
             {
-                Console.WriteLine("Max = ");
-                return num3;
+                Console.Write("Max Integer Number = ");
+                return num_3;
             }
             else
             {
