@@ -12,11 +12,11 @@ namespace FindMaxUsingGenerics
             string[] stringArray = { "Apple", "Peach", "Banana", "swaraj", "pawan", "vishal"};
 
             MaxGeneric<int> intValue = new MaxGeneric<int>(intArray);
-            Console.WriteLine(intValue.testMaximum());
+            intValue.printMax();
             MaxGeneric<float> floatValue = new MaxGeneric<float>(floatArray);
-            Console.WriteLine(floatValue.testMaximum());
+            floatValue.printMax();
             MaxGeneric<string> strValue = new MaxGeneric<string>(stringArray);
-            Console.WriteLine(strValue.testMaximum()); 
+            strValue.printMax(); 
         }
 
     }
